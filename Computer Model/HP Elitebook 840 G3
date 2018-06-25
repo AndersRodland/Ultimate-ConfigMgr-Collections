@@ -1,0 +1,3 @@
+select SMS_R_System.Name FROM SMS_R_System
+INNER JOIN SMS_G_System_COMPUTER_SYSTEM ON SMS_G_System_COMPUTER_SYSTEM.ResourceID = SMS_R_System.ResourceID
+WHERE SMS_G_System_COMPUTER_SYSTEM.Model = "HP EliteBook 840 G3"
