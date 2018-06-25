@@ -1,0 +1,1 @@
+select * from SMS_R_System where SMS_R_System.IPAddresses like "10.10.10.1[1-9]"
